@@ -38,7 +38,9 @@
           <li><a href="#classes" onclick="allClass()">Classes</a></li>
           <li><a href="#quizzes" onclick="classQuiz()">Quizzes</a></li>
           <li><a href="#profile" onclick="profile()">Profile</a></li>
-          <li><a href="#logout" onclick="logOut()">Logout from Portal</a></li>
+          <li><a href="#logout" onclick="logOut()">Logout</a></li>
+          <li><a href="#report" onclick="reportCard()">Report Card</a></li>
+
           </ul>
           <div id="clock">00:00:00</div>
       </div>
@@ -53,7 +55,7 @@
   <section href="#profile" id="profile">
     <section id="profile1" background="//background.png/jpg">
          <h3 id="greeting"></h3>
-         <h4>You are <b>15 classes</b> away from getting your <u>PPT Accomplishment certificate.</u></h4>
+         <h4>You are currenty having the <u>White Hat</u> and you are <b>05 classes</b> away from getting <u>Silver hat</u></h4>
           <script>
           // Get the current time
           var time = new Date().getHours();
@@ -74,6 +76,7 @@
           document.getElementById("greeting").innerHTML = greeting;
         </script>
     </section>
+    <img src="White-Hat.png" id="hat">
     <h3>Name: Mrs. Rekha Kadam</h3>
     <h4>Course enrolled: MS PowerPoint</h4>
     <h4>Pending classes: 15</h4>

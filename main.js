@@ -86,3 +86,15 @@ function updateTime() {
 function logOut(){
     window.location = "login.html"
 }
+
+function cert(){
+    window.location = "cert.html"
+}
+
+function openCert1(){
+    window.location.href = "joining_cert.pdf"
+}
+
+function reportCard(){
+    window.location = "report.html"
+}
